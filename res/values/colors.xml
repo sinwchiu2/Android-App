@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0987A0</color> <!-- Color of header -->
+    <color name="colorPrimaryDark">#00596A</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="background">#F2DDC6</color>
+    <color name="colorButton">#FCD75C</color>
+    <color name="colorButtonHover">#DEC262</color>
+    <color name="colorButtonText">#38221F</color>
+    <color name="textHint">#646464</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+</resources>

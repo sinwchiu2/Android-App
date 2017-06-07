@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">筆求人</string>
+
+    <string name="alpha">Hello World!</string>
+    <string name="mainMenu">主菜單</string>
+    <string name="blank">空白信件</string>
+    <string name="letter_formal">事務書信</string>
+    <string name="letter_informal">私人書信</string>
+    <string name="drawing_card">自製賀卡</string>
+    <string name="template">格式範例</string>
+    <string name="setting">設定</string>
+    <string name="textHint">請按此處開始輸入</string>
+    <string name="cancel">離開</string>
+    <string name="send">發送</string>
+    <string name="selectOne">選取相符的文字</string>
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="draw_save">Save</string>
+    <string name="paint">Paint</string>
+
+    <string name="email">Email</string>
+
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+
+</resources>
