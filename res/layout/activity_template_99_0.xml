@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:theme="@style/AppTheme.Toolbar"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="簡介：\n\n　　評論屬於議論性的文章。議論文也有人稱為說理文、論說文、論辯文等。一般論辯說理的文章，都是以議論為主要的表達手段，通過判斷、推理等邏輯方式來闡明事理。\n\n　　對日常生活裏任何一個生活範疇的任何課題有意見，都可以寫一篇評論文章。從內容方面考慮，常見的分類包括人物評論、時事評論、經濟評論、政治評論、軍事評論、文學評論(包括書評)、藝術評論(包括影評、劇評、樂評)等。"
+                android:id="@+id/intro"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:id="@+id/horizontal_rule"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#707070"
+                android:layout_below="@id/intro"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="結構："
+                android:id="@+id/structure0"
+                android:layout_below="@id/horizontal_rule"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/structure0"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:background="#b1b1b1">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    >
+                    <TextView
+                        android:layout_weight="2.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="稱　謂"
+                        android:id="@+id/structure1"
+                        android:background="@color/colorWhite" />
+                    <TextView
+                        android:layout_weight="7.5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    >
+                    <TextView
+                        android:layout_weight="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:background="@color/colorWhite"
+                        android:text="引言"
+                        android:id="@+id/structure3"
+                        android:gravity="center_horizontal|center_vertical"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    >
+                    <TextView
+                        android:layout_weight="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:background="@color/colorWhite"
+                        android:text="正文"
+                        android:id="@+id/structure2"
+                        android:gravity="center_horizontal|center_vertical"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="10dp"
+                    >
+                    <TextView
+                        android:layout_weight="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:padding="5dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:background="@color/colorWhite"
+                        android:text="結語"
+                        android:id="@+id/structure8"
+                        android:gravity="center_horizontal|center_vertical"/>
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

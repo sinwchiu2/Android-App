@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:theme="@style/AppTheme.Toolbar"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="崇基中學二零零三至零四年度中六甲班第二次會議紀錄"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期： 二零零三年十月一日"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView17"
+                android:layout_below="@+id/textView16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="時間： 下午四時正"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView18"
+                android:layout_below="@+id/textView17"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地點： 中六甲課室"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/textView18"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出席： 馬小其、陳思思、羅國邦、林美芳、吳子山"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView20"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="列席： 王志成老師"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="缺席： 方振宇"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView22"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主席： 馬小其"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView23"
+                android:layout_below="@+id/textView22"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="秘書： 陳思思"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView24"
+                android:layout_below="@+id/textView23"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 通過本次會議議程"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView25"
+                android:layout_below="@+id/textView24"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold" />/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   由吳子山動議，林美芳和議，一致通過本次會議議程。"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView26"
+                android:layout_below="@+id/textView25"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. 通過上次會議紀錄"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView27"
+                android:layout_below="@+id/textView26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   由羅國邦動議，陳思思和議，一致通過上次會議紀錄。"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView28"
+                android:layout_below="@+id/textView27"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. 報告事項"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView29"
+                android:layout_below="@+id/textView28"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   方振宇因病缺席"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView30"
+                android:layout_below="@+id/textView29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. 討論事項"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView31"
+                android:layout_below="@+id/textView30"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    4.1 有關往淺水灣旅行的交通安排事宜"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView32"
+                android:layout_below="@+id/textView31"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       4.1.1 林美芳動議乘坐交通工具，陳思思和議"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView33"
+                android:layout_below="@+id/textView32"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             羅國邦動議租旅遊車，吳子山和議"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView34"
+                android:layout_below="@+id/textView33"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       4.1.2 決議：往淺水灣旅行租旅遊車"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView35"
+                android:layout_below="@+id/textView34"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   4.2 有關往淺水灣旅行的膳食安排事宜"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView36"
+                android:layout_below="@+id/textView35"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       4.2.1 陳思思動議燒烤，羅國邦和議"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView37"
+                android:layout_below="@+id/textView36"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             吳子山動議自備乾糧，林美芳和議"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView38"
+                android:layout_below="@+id/textView37"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       4.2.2 	決議：往淺水灣旅行當日燒烤"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView39"
+                android:layout_below="@+id/textView38"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. 其他事項"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView40"
+                android:layout_below="@+id/textView39"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   下次開會日期：二零零三年十一月八日下午四時正於中六甲課室舉行"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView41"
+                android:layout_below="@+id/textView40"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. 散會時間"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView42"
+                android:layout_below="@+id/textView41"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   下午五時正"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView43"
+                android:layout_below="@+id/textView42"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="主席(簽署)"
+                android:id="@+id/textView44"
+                android:layout_below="@+id/textView43"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="31dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="秘書(簽署)"
+                android:id="@+id/textView45"
+                android:layout_below="@+id/textView44"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本會議紀錄於2003年3月11日正式通過"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView46"
+                android:layout_below="@+id/textView45"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="31dp" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:theme="@style/AppTheme.Toolbar"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.Title"
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="校長、各位老師、各位新入學的同學："
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="首先我要代表學生會、代表全體同學，歡迎各位新生加入我們這個大家庭。從今天開始，大家就成為我們這個大家庭的一份子，與我們共同作息，共同度過漫長的中學階段。"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="匯才中學在鄰近的區域裏面，算是比較有名望的學校；學校能有今天的成就，完全有賴校長的英明領導、老師們的熱誠工作，以及師兄師姐們的勤奮學習。相信大家跟我一樣，都以能夠進入匯才為榮。"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="但是，我們在享受這份光榮的同時，我想，也應時刻提醒自己：我們不能只是坐享其成，而應該同時努力地保護和鞏固匯才這些年來所培植出來的成果。我們所能夠做的，除了努力學習，爭取良好的學業成績以外，還應該積極參與校方以及各學生團體所組織的活動，這些活動可以在課堂以外，為大家提供一些「另類」的學習機會，開拓大家的生活空間，擴闊大家的視野。比如學會每年都會主辦各種學術康樂活動，像文化推廣周、時事問答比賽；屬會像電腦學會曾舉辦過網頁設計比賽，中文學會舉辦過徵文比賽、春節遊藝晚會，辯論學會舉辦過聯校辯論比賽，擷青社則經常響應政府部門和各社會團體的號召，參加各種環保活動和美化社區活動。以上我所列舉的只是其中的一部分。學校現在有16個屬會，每年的經常性活動有38項，我相信一定有一項能符合你的興趣，滿足你的需求。等一會大家就會收到各屬會的介紹資料，對它們有進一步的認識。"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="這些屬會和活動能否成功，完全依賴大家的支持和參與，身為匯才的一份子，希望各位新生能跟我們一起，共同建立起一個溫馨、強大、團結的大家庭。我們的口號是「認真學習，積極參與」，只要大家願意投入，願意參與，我相信大家的中學生活一定會色彩繽紛，成果纍纍。謝謝大家。"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
